@@ -1,0 +1,9 @@
+my_first_job:
+   cron: "* * * * *"
+   class: "CalculateInterestJob"
+   queue: default
+
+my_second_job:
+   cron: "* * * * *" 
+   class: "RepayLoanJob"
+   queue: default
