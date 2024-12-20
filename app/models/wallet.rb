@@ -9,7 +9,11 @@ class Wallet < ApplicationRecord
   end
 
   def debit(amount)
-    self.balance -= amount
+    if amount > self.balance
+      self.balance = 0
+    else
+      self.balance -= amount
+    end
     save!
   end
 end
