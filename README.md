@@ -15,7 +15,7 @@ The Money Lending App is designed to facilitate loan transactions between a sing
 ## Steps to Login
 
 ### As Admin
-1. Navigate to the admin login page usig this link http://localhost:3000/admin.
+1. Navigate to the admin login page using this link http://localhost:3000/admin.
 2. Enter your admin credentials (email and password).
 3. Click the **Login** button to access the admin dashboard.
 
